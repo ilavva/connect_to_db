@@ -6,9 +6,9 @@ CREATE TABLE [dbo].[lang] (
 );
 
 INSERT INTO lang(langCode, langName, langDir) VALUES
-    ('he', '�����', 'rtl'), 
+    ('he', 'עברית', 'rtl'), 
     ('en', 'English', 'ltr'), 
-    ('ru', '???????', 'ltr'),
-    ('ar', '???????', 'rtl') ;
+    ('ru', 'Русский', 'ltr'),
+    ('ar', 'العربية', 'rtl') ;
 
 SELECT * FROM lang;
