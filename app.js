@@ -10,11 +10,7 @@ app.get("/langs", async (req, res) => {
     res.json(x);
 });
 
-app.get("/langs2", async (req, res) => {
-    let x = "test";
-    x = await myRepository.getLangs2();
-    res.json(x);
-});
+
 
 app.use(express.static('public'));
 //=========================
